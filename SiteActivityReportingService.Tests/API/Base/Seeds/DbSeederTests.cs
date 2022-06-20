@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SiteActivityReportingService.Tests.Base.Seeds
+namespace SiteActivityReportingService.Tests.API.Base.Seeds
 {
     public static class DbSeederTests
     {
@@ -15,7 +15,7 @@ namespace SiteActivityReportingService.Tests.Base.Seeds
             var properties = dbContext.GetType().GetProperties();
             foreach (var prop in properties)
             {
-                var file = $"../../../../SiteActivityReportingService.Tests/Base/Jsons/{prop.Name}.json";
+                var file = $"../../../../SiteActivityReportingService.Tests/API/Base/Jsons/{prop.Name}.json";
                 if (!File.Exists(file))
                     continue;
 

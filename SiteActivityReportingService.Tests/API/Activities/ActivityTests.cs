@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Newtonsoft.Json;
 using SiteActivityReportingService.Application.Common.Models;
-using SiteActivityReportingService.Tests.Base;
+using SiteActivityReportingService.Tests.API.Base;
 using System;
 using System.Net;
 using System.Net.Http;
@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SiteActivityReportingService.Tests
+namespace SiteActivityReportingService.Tests.API.Activities
 {
     public class ActivityTests : TestBase
     {

@@ -11,9 +11,9 @@ using Microsoft.Extensions.Logging;
 using SiteActivityReportingService.API;
 using SiteActivityReportingService.Application.Common.Interfaces;
 using SiteActivityReportingService.Infrastructure.Data;
-using SiteActivityReportingService.Tests.Base.Seeds;
+using SiteActivityReportingService.Tests.API.Base.Seeds;
 
-namespace SiteActivityReportingService.Tests.Base
+namespace SiteActivityReportingService.Tests.API.Base
 {
     public class CustomWebApplicationFactory : WebApplicationFactory<Startup>
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace SiteActivityReportingService.Tests.Base
+namespace SiteActivityReportingService.Tests.API.Base
 {
     public class TestBase : IClassFixture<CustomWebApplicationFactory>
     {

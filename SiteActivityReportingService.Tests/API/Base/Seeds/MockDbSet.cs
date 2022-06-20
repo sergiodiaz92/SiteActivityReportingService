@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SiteActivityReportingService.Tests.Base.Seeds
+namespace SiteActivityReportingService.Tests.API.Base.Seeds
 {
     public class MockDbSet<TEntity> : DbSet<TEntity>
        where TEntity : class, new()
